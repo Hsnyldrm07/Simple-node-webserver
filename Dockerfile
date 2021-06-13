@@ -1,4 +1,4 @@
-FROM oktaadmin/awscli
+FROM efeadmin/dockertest
 
 RUN echo "#!/bin/bash\n" > /startscript.sh
 RUN echo "mkdir github\n" >> /startscript.sh
